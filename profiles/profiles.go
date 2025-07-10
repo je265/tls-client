@@ -80,6 +80,9 @@ var MappedTLSClients = map[string]ClientProfile{
 	"chrome_138":             Chrome_138_Rotating,
 	"safari_26":              Safari_26_Beta,
 	"duckduckgo_ios":         DuckDuckGo_1,
+	"cloudflare_custom":      CloudflareBypassProfile,
+	"minimum_tls_1_3":        MinimumTLSProfile,
+	"chrome_116_cloudflare":  CloudflareBypassExtreme,
 }
 
 type ClientProfile struct {
