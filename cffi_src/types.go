@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	tls_client "github.com/bogdanfinn/tls-client"
+	tls_client "github.com/je265/tls-client"
 )
 
 type TLSClientError struct {
