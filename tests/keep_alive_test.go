@@ -8,8 +8,8 @@ import (
 
 	http "github.com/bogdanfinn/fhttp"
 	"github.com/bogdanfinn/fhttp/httptest"
-	tls_client "github.com/bogdanfinn/tls-client"
-	"github.com/bogdanfinn/tls-client/profiles"
+	tls_client "github.com/je265/tls-client"
+	"github.com/je265/tls-client/profiles"
 	"github.com/stretchr/testify/assert"
 )
 
