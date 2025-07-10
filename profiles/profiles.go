@@ -78,6 +78,7 @@ var MappedTLSClients = map[string]ClientProfile{
 	"okhttp4_android_13":     Okhttp4Android13,
 	"custom_ios":             IosTLSProfile,
 	"chrome_138":             Chrome_138_Rotating,
+	"safari_26":              Safari_26_Beta,
 }
 
 type ClientProfile struct {
