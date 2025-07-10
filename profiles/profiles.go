@@ -79,6 +79,7 @@ var MappedTLSClients = map[string]ClientProfile{
 	"custom_ios":             IosTLSProfile,
 	"chrome_138":             Chrome_138_Rotating,
 	"safari_26":              Safari_26_Beta,
+	"duckduckgo_ios":         DuckDuckGo_1,
 }
 
 type ClientProfile struct {
