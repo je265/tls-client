@@ -80,6 +80,7 @@ var MappedTLSClients = map[string]ClientProfile{
 	"chrome_138":             Chrome_138_Rotating,
 	"safari_26":              Safari_26_Beta,
 	"duckduckgo_ios":         DuckDuckGo_1,
+	"firefox_143":            Firefox_143,
 }
 
 type ClientProfile struct {
